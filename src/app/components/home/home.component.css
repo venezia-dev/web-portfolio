@@ -88,6 +88,10 @@ html { scroll-behavior: smooth; }
     padding: 0px;
 }
 
+.buttonS .mat-raised-button {
+    padding: 0px;
+}
+
 .centerB{
     display: block;
     margin: auto;
