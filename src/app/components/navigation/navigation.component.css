@@ -6,3 +6,6 @@
     color: #fff;
 }
  
+.navbar-light .navbar-toggler {
+    background-color: #ff4081;
+}
