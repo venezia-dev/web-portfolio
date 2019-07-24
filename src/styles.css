@@ -1,0 +1,19 @@
+@font-face {
+    font-family: FallingSky;
+    src: url("/assets/fonts/FallingSky.otf") format("opentype");
+}
+
+html, body { 
+            height: 100%; 
+            width: 100%;
+            }
+body { 
+    margin: 0; 
+    font-family: FallingSky, roboto, sans-serif;
+    padding: 0;
+    }
+
+.mat-raised-button {
+    font-family: FallingSky, roboto, sans-serif;
+}
+
