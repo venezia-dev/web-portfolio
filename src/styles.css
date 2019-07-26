@@ -17,3 +17,9 @@ body {
     font-family: FallingSky, roboto, sans-serif;
 }
 
+
+
+.badge-info {
+    color: #fff;
+    background-color: #ff4081;
+}
