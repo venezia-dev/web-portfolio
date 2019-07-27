@@ -39,44 +39,7 @@
     padding: 0px;
 }
 
-/*.port-card{
-    max-width: 400px;
+.textP {
+    font-size: 2rem;
+    padding: 1rem;
 }
-
-.mat-card {
-    background-color: #446451;
-}
-
-.mat-card-image:first-child{
-    margin-top: -35px;
-}
-.mat-card-image {
-    width: 100%;
-    margin-bottom: 0px;
-    margin-left: 0%;
-}
-.mat-card-avatar {
-    width: 150px;
-    background-size: cover;
-  }
-
-.mat-card-title{
-    color: #000;
-    margin-bottom: 0px;
-}
-.mat-card-subtitle{
-    color: #022445;
-    margin-bottom: 0px;
-    font-size: 1.2rem;
-}
-.mat-card-subtitle a {
-    color: #fff;
-}
-.mat-card-subtitle a:link {
-    text-decoration:none; 
-}
-.mat-card-actions {
-    padding-bottom: 1px;
-    margin: 0px 16px;
-}
-*/
