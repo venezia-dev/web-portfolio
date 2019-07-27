@@ -50,3 +50,8 @@
 .card-text{
     padding: 0.6rem;
 }
+
+.mat-icon {
+    vertical-align: middle;
+    height: 26px;
+ }
