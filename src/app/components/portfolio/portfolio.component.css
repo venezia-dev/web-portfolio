@@ -44,3 +44,7 @@
     padding: 1rem;
 }
 
+.nsm-dialog {
+    min-height: 100%;
+    max-width: 100%;
+}
