@@ -29,7 +29,7 @@
     <div class="col-lg-4 mb-3">
         <div class="cardL">
                 <div class="card">
-                    <img mat-card-image src="../../../assets/webimg/vivaluganop.jpg" class="imgL" alt="Viva Lugano" (click)="ngxSmartModalService.getModal('vivalugano').open()">
+                    <img mat-card-image src="../../../assets/webimg/vivaluganop.jpg" class="imgL" alt="Viva Lugano" data-toggle="modal" data-target="#vivalugano">
                     <div class="card-body">
                         <a aria-label="Instagram" matTooltip="Like" href="https://www.instagram.com/venezia.dev/" target="_blank">
                             <button mat-button aria-label="button html"><img src="../../../assets/img/heartx30.png"></button>
@@ -50,7 +50,7 @@
     <div class="col-lg-4 mb-3">
           <div class="cardL">
             <div class="card">
-                <img mat-card-image src="../../../assets/webimg/whatdayp.jpg" class="imgL" alt="Whatday" (click)="ngxSmartModalService.getModal('wdmodal').open()">
+                <img mat-card-image src="../../../assets/webimg/whatdayp.jpg" class="imgL" alt="Whatday" data-toggle="modal" data-target="#whatday">
                 <div class="card-body">
                     <a aria-label="Whatday" matTooltip="Like" href="https://www.instagram.com/venezia.dev/" target="_blank">
                         <button mat-button aria-label="button html"><img src="../../../assets/img/heartx30.png"></button>
@@ -73,7 +73,7 @@
     <div class="col-lg-4 mb-3">
         <div class="cardL">
             <div class="card">
-                <img mat-card-image src="../../../assets/webimg/noverazp.png" class="imgL" alt="noveraz.com" (click)="ngxSmartModalService.getModal('myModal3').open()">
+                <img mat-card-image src="../../../assets/webimg/noverazp.png" class="imgL" alt="noveraz.com" data-toggle="modal" data-target="#noveraz">
                 <div class="card-body">
                     <a aria-label="Instagram" matTooltip="Like" href="https://www.instagram.com/venezia.dev/" target="_blank">
                         <button mat-button aria-label="button html"><img src="../../../assets/img/heartx30.png"></button>
@@ -94,7 +94,7 @@
     <div class="col-lg-4 mb-3">
         <div class="cardL">
                 <div class="card">
-                    <img mat-card-image src="../../../assets/webimg/prismap.png" class="imgL" alt="www.prismaconstructorasrl.com" (click)="ngxSmartModalService.getModal('myModal2').open()">
+                    <img mat-card-image src="../../../assets/webimg/prismap.png" class="imgL" alt="www.prismaconstructorasrl.com" data-toggle="modal" data-target="#prisma">
                     <div class="card-body">
                         <a aria-label="Instagram" matTooltip="Like" href="https://www.instagram.com/venezia.dev/" target="_blank">
                             <button mat-button aria-label="button html"><img src="../../../assets/img/heartx30.png"></button>
@@ -115,7 +115,7 @@
     <div class="col-lg-4 mb-3">
           <div class="cardL">
             <div class="card">
-                <img mat-card-image src="../../../assets/webimg/insumositP.jpg" class="imgL" alt="InsumosIT" (click)="ngxSmartModalService.getModal('myModal1').open()">
+                <img mat-card-image src="../../../assets/webimg/insumositP.jpg" class="imgL" alt="InsumosIT" data-toggle="modal" data-target="#insumosit">
                 <div class="card-body">
                     <a aria-label="Instagram" matTooltip="Like" href="https://www.instagram.com/venezia.dev/" target="_blank">
                         <button mat-button aria-label="button html"><img src="../../../assets/img/heartx30.png"></button>
@@ -136,37 +136,108 @@
 </div>
 
 
-<!--<img mat-card-image class="btn btn-secondary" src="../../../assets/image3-thumb.jpg" alt="Photo of a Shiba Inu" (click)="ngxSmartModalService.getModal('myModal3').open()">-->
-
-
-
-<ngx-smart-modal #myModal customClass="nsm-dialog" identifier="myModal1">
-    <h1 class="text-center">
-        <a aria-label="InsumosIT WEB" matTooltip="Open" href="http://www.insumosit.com.ar/" target="_blank" mat-raised-button color="accent">INSUMOS IT</a>
-    </h1>
-    <img mat-card-image src="../../../assets/webimg/insumosit.jpg" class="img-fluid" alt="Insumos IT WEB">
-</ngx-smart-modal>
-<ngx-smart-modal #myModal identifier="myModal2">
-        <h1 class="text-center">
-            <a aria-label="Prisma Constructora SRL WEB" matTooltip="Open" href="http://www.prismaconstructorasrl.com/" target="_blank" mat-raised-button color="accent">Prisma Constructora SRL</a>
-        </h1>
-        <img mat-card-image src="../../../assets/webimg/prisma.jpg" class="img-fluid" alt="Prisma Constructora SRL WEB">
-</ngx-smart-modal>
-<ngx-smart-modal #myModal identifier="myModal3">
-        <h1 class="text-center">
-            <a aria-label="Noveraz.com" matTooltip="Open" href="http://www.noveraz.com/" target="_blank" mat-raised-button color="accent">NO VERAZ</a>
-        </h1>
-        <img mat-card-image src="../../../assets/webimg/noveraz.jpg" class="img-fluid" alt="NOVERAZ WEB">
-</ngx-smart-modal>
-<ngx-smart-modal #myModal customClass="nsm-dialog" identifier="wdmodal">
-        <h1 class="text-center">
-            <a aria-label="whatday.is" matTooltip="Open" href="http://www.whatday.is/" target="_blank" mat-raised-button color="accent">WHAT DAY ISS</a>
-        </h1>
-        <img mat-card-image src="../../../assets/webimg/whatday.png" class="img-fluid" alt="Whatday WEB">
-</ngx-smart-modal>
 <ngx-smart-modal #myModal identifier="vivalugano">
         <h1 class="text-center">
-            <a aria-label="vivalugano" matTooltip="Open" href="http://www.vivalugano.com.ar/" target="_blank" mat-raised-button color="accent">Viva Lugano</a>
         </h1>
-        <img mat-card-image src="../../../assets/webimg/vivalugano.jpg" class="img-fluid" alt="VivaLugano WEB">
 </ngx-smart-modal>
+
+
+<!--<img mat-card-image class="btn btn-secondary" src="../../../assets/image3-thumb.jpg" alt="Photo of a Shiba Inu" (click)="ngxSmartModalService.getModal('myModal3').open()">-->
+<!-- Modal 5 -->
+<div class="modal fade" id="vivalugano" tabindex="-1" role="dialog" aria-labelledby="vivalugano" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="vivalugano">
+                        <a aria-label="vivalugano" matTooltip="Open" href="http://www.vivalugano.com.ar/" target="_blank" mat-raised-button color="accent">Viva Lugano</a>
+                    </h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                        <img mat-card-image src="../../../assets/webimg/vivalugano.jpg" class="img-fluid" alt="VivaLugano WEB">
+                    </div>
+              </div>
+        </div>
+</div>
+<!-- Modal 5 -->
+<!-- Modal 4 -->
+<div class="modal fade" id="whatday" tabindex="-1" role="dialog" aria-labelledby="whatday" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="whatday">
+                        <a aria-label="whatday.is" matTooltip="Open" href="http://www.whatday.is/" target="_blank" mat-raised-button color="accent">WHAT DAY IS</a>
+                    </h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                        <img mat-card-image src="../../../assets/webimg/whatday.png" class="img-fluid" alt="Whatday WEB">
+                    </div>
+              </div>
+        </div>
+</div>
+<!-- Modal 4 -->
+<!-- Modal 3 -->
+<div class="modal fade" id="noveraz" tabindex="-1" role="dialog" aria-labelledby="noveraz" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="noveraz">
+                        <a aria-label="Noveraz.com" matTooltip="Open" href="http://www.noveraz.com/" target="_blank" mat-raised-button color="accent">NO VERAZ</a>
+                    </h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                        <img mat-card-image src="../../../assets/webimg/noveraz.jpg" class="img-fluid" alt="NOVERAZ WEB">
+                </div>
+              </div>
+        </div>
+</div>
+<!-- Modal 3 -->
+<!-- Modal 2 -->
+<div class="modal fade" id="prisma" tabindex="-1" role="dialog" aria-labelledby="prisma" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="prisma">
+                        <a aria-label="Prisma Constructora SRL WEB" matTooltip="Open" href="http://www.prismaconstructorasrl.com/" target="_blank" mat-raised-button color="accent">Prisma Constructora SRL</a>
+                    </h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                    <img mat-card-image src="../../../assets/webimg/prisma.jpg" class="img-fluid" alt="Prisma Constructora SRL WEB">
+                </div>
+              </div>
+        </div>
+</div>
+<!-- Modal 2 -->
+<!-- Modal 1 -->
+<div class="modal fade" id="insumosit" tabindex="-1" role="dialog" aria-labelledby="insumosit" aria-hidden="true">
+    <div class="modal-dialog modal-xl" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="insumosit">
+                  <a aria-label="InsumosIT WEB" matTooltip="Open" href="http://www.insumosit.com.ar/" target="_blank" mat-raised-button color="accent">INSUMOS IT</a>
+              </h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                    <img mat-card-image src="../../../assets/webimg/insumosit.jpg" class="img-fluid" alt="Insumos IT WEB">
+            </div>
+          </div>
+    </div>
+</div>
+<!-- Modal 1 -->
+
+
+
