@@ -44,7 +44,8 @@
     padding: 1rem;
 }
 
-.nsm-dialog {
-    min-height: 100%;
-    max-width: 100%;
-}
+::ng-deep .pack-modal-custom{
+    min-width: 100% !important;
+    max-width: 100% !important;
+    background-color: #3f51b5 !important;
+   }
