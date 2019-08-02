@@ -44,7 +44,7 @@
     padding: 1rem;
 }
 
-.pack-modal-custom{
+.nsm-dialog{
     min-width: 100% !important;
     max-width: 100% !important;
     background-color: #3f51b5 !important;
