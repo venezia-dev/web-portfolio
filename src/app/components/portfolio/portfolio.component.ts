@@ -1,5 +1,4 @@
 import { Component} from '@angular/core';
-import { NgxSmartModalService } from 'ngx-smart-modal';
 
 
 @Component({
@@ -8,7 +7,5 @@ import { NgxSmartModalService } from 'ngx-smart-modal';
   styleUrls: ['./portfolio.component.css']
 })
 export class PortfolioComponent {
-  constructor(public ngxSmartModalService: NgxSmartModalService) {
-  }
 }
 

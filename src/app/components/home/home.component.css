@@ -79,9 +79,6 @@ html { scroll-behavior: smooth; }
 .mat-divider {
     border-top-color: #43324b;
 }
-.mat-standard-chip {
-    margin-left: auto;
-}
 
 .mat-button {
     min-width: 1px;

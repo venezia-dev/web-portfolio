@@ -1,7 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { ResponsiveModule } from 'ngx-responsive'
-import { NgxSmartModalModule } from 'ngx-smart-modal';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -28,7 +27,6 @@ import { HomeComponent } from './components/home/home.component';
     BrowserAnimationsModule,
     ResponsiveModule.forRoot(),
     MaterialModule,
-    NgxSmartModalModule.forRoot()
    ],
   providers: [],
   bootstrap: [AppComponent]
