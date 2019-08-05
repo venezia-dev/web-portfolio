@@ -10,8 +10,7 @@ declare var particlesJS: any;
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
-  constructor() { }
-
+  
   title = 'VeneziaDev';
 
   ngOnInit() {
@@ -19,5 +18,7 @@ export class AppComponent implements OnInit {
     particlesJS('particles-js', ParticlesConfig, function() {
         console.log('callback - particles.js config loaded');
       });
-}
+  }
+
+
 }

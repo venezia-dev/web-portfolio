@@ -5,13 +5,13 @@
           <div class="card">
               <div class="card-body align-self-center">
                   <h4 class="card-title text-center">
-                  Hola Soy Leandro de Buenos Aires - Argentina
+                      {{ 'home.soy' | translate }}
                 </h4>
               </div>
               <img src="../assets/img/fotoperfill.png" alt="Card image" class="img-fluid">
               <div class="card-body align-self-center">
                 <p class="card-text buttonS">
-                    <button mat-raised-button color="primary" matTooltip="MongoDB - ExpressJS - Angular - NodeJS">Desarrollador WEB - STACK MEAN</button>
+                    <button mat-raised-button color="primary" matTooltip="MongoDB - ExpressJS - Angular - NodeJS">{{ 'home.deve' | translate }} - STACK MEAN</button>
                   </p>
               </div>
             </div>
@@ -24,7 +24,7 @@
         <div class="cardL" #sk>
             <div class="card">
               <div class="card-body">
-                  <h4 class="card-title text-center pb-3" >Habilidades</h4>
+                  <h4 class="card-title text-center pb-3" >{{ 'home.skill' | translate }}</h4>
                       <button mat-raised-button color="primary">FRONTEND</button>
                       <div class="p-2">
                         <button mat-button matTooltip="HTML5" aria-label="button html"><img src="../../../assets/img/htmlx30.png"></button>
@@ -40,7 +40,7 @@
                         <button mat-button matTooltip="MySQL" aria-label="button MySQL"><img src="../../../assets/img/mysqlx30.png"></button>
                         <button mat-button matTooltip="MongooDB" aria-label="button MongoDB"><img src="../../../assets/img/mongodbx30.png"></button>
                       </div>
-                      <button mat-raised-button color="primary">APRENDIENDO</button>
+                      <button mat-raised-button color="primary">{{ 'home.lear' | translate }}</button>
                       <div class="p-2">
                         <button mat-button matTooltip="Python" aria-label="button Python"><img src="../../../assets/img/pythonx30.png"></button>
                         <button mat-button matTooltip="Django" aria-label="button Django"><img src="../../../assets/img/djangox30.png"></button>
@@ -72,7 +72,7 @@
                     </p>
                     <mat-divider></mat-divider>
                 <div class="p-3">
-                    <a routerLink="/portfolio" mat-raised-button color="accent">Ver Mas...</a>
+                    <a routerLink="/portfolio" mat-raised-button color="accent">{{ 'home.more' | translate }}</a>
                 </div>
             </div>
           </div>

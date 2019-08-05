@@ -8,7 +8,8 @@ import {
     MatBadgeModule,
     MatListModule,
     MatIconModule,
-    MatTooltipModule
+    MatTooltipModule,
+    MatRadioModule
 } from '@angular/material';
 
 
@@ -21,7 +22,8 @@ import {
         MatBadgeModule,
         MatListModule,
         MatIconModule,
-        MatTooltipModule
+        MatTooltipModule,
+        MatRadioModule
     ],
     exports: [
         MatButtonModule,
@@ -31,7 +33,8 @@ import {
         MatBadgeModule,
         MatListModule,
         MatIconModule,
-        MatTooltipModule
+        MatTooltipModule,
+        MatRadioModule
     ]
 
 })
