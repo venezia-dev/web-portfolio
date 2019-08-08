@@ -81,8 +81,8 @@ html { scroll-behavior: smooth; }
 }
 
 .mat-button {
-    min-width: 1px;
-    padding: 0px;
+    min-width: 5px;
+    padding-left: 0px;
 }
 
 .centerB{
